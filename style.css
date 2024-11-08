@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 100%;
+    height: 800px;
+    background: url(images/bg-hero-mobile.svg) no-repeat center center/cover;
+    background-color: hsl(193, 100%, 96%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containertext {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+header img {
+    height: 15px;
+}
+#hedbtn{
+    border: none;
+    color: #000;
+    width: 100px;
+    padding: 3px;
+    border-radius: 20px;
+    font-size: 13px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 0;
+    background-color: #fff;
+
+}
+#hedbtn:hover{
+    color: hsl(208, 11%, 55%);
+    
+}
+
+.headtextimagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.headtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headtext h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.headtext p {
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+}
+button {
+    width: 260px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover {
+    background-color: hsl(322, 92%, 77%);
+}
+
+.headimage {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.headimage img {
+    height: 230px;
+}
+/* sections */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    width: 85%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.sec img {
+    width: 250px;
+    margin: 20px 0;
+}
+.sectext h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+.sectext p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 249px;
+    line-height: 25px;
+    color: hsl(208, 11%, 55%);
+}
+.seccard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translateY(70px);
+}
+
+.seccard h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+.seccard button {
+    width: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff52bf;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.seccard button:hover {
+    background-color: hsl(322, 92%, 77%);
+}
+/* footer */
+.fotrcontainer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    width: 100%;
+    padding-left: 10px;
+}
+.address {
+    margin-top: 150px;
+    padding: 5px;
+}
+.address p {
+    font-size: 15px;
+}
+.address img {
+    height: 26px;
+    margin-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: first baseline;
+    gap: 20px;
+    width: 310px;
+    margin-bottom: 20px;
+}
+.location img {
+    height: 15px;
+    margin-bottom: 0;
+}
+.midlink {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.midlink a {
+    color: hsl(207, 28%, 83%);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    width: 110px;
+}
+.midlink a:hover {
+    text-decoration: underline;
+}
+
+.smedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.social {
+    display: flex;
+    gap: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.social a:hover {
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    
+}
+.fa-brands{
+    font-size: 16px;
+}
+
+
+.copyright {
+    margin: 30px 0 40px 0;
+}
+.copyright p {
+    font-size: 12px;
+}
+
+@media (min-width: 376px) {
+    main {
+        background: url(images/bg-hero-desktop.svg) no-repeat center
+            center/cover;
+        background-color: hsl(193, 100%, 96%);
+        flex-direction: row;
+        height: 600px;
+    }
+    .containertext {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .headtextimagecontainer {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+    }
+    .headtext {
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+    .headtext h1 {
+        text-align: left;
+        width: 450px;
+        font-size: 40px;
+    }
+    .headtext p {
+        line-height: 30px;
+    text-align: left;
+    width: 570px;
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+    }
+    header img {
+        height: 25px;
+    }
+    #hedbtn {
+        width: 140px;
+        height: 40px;
+    }
+    button {
+        margin-top: 0px;
+        height: 50px;
+    }
+    .headimage img {
+        height: 450px;
+    }
+
+    /* sections */
+
+    .sec {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 90px;
+        padding: 0 80px 0 80px;
+    }
+
+    .sec img {
+        width: 450px;
+    }
+    #flowing {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sectext h2 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+    .sectext h2 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .sectext p {
+        text-align: left;
+        width: 535px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .seccard {
+        width: 657px;
+    height: 190px;
+    transform: translate(-50px,87px);
+    }
+    .seccard h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .seccard button {
+        width: 273px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    .fotrcontainer {
+        padding: 0 160px 0;
+        display: flex;
+        gap: 100px;
+        height: 450px;
+        justify-content: center;
+    }
+    .address p {
+        font-size: 14px;
+    }
+    .midlink {
+        margin-top: 200px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .midlink a {
+        font-size: 16px;
+        width: 93px;
+    }
+    .smedia {
+        margin-top: 200px;
+        align-items: normal;
+    }
+    .social {
+        padding: 0;
+    }
+    .copyright {
+        margin: 30px 0 40px 0;
+        width: 280px;
+    }
+    .copyright p {
+        font-size: 13px;
+        margin-top: 150px;
+    }
+}
